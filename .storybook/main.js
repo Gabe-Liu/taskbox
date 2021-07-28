@@ -1,4 +1,4 @@
-// npx chromatic --project-token=fdd42364524e
+// npx chromatic --project-token=6d3fb1f01b9e
 module.exports = {
   // "stories": [
   //   "../src/**/*.stories.mdx",

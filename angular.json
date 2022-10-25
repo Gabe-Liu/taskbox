@@ -93,5 +93,13 @@
       }
     }
   },
-  "defaultProject": "intro-storybook-angular-template"
+  "defaultProject": "intro-storybook-angular-template",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  },
+  "cli": {
+    "analytics": false
+  }
 }

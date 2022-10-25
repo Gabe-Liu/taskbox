@@ -1,5 +1,7 @@
 import { Component, OnInit, Input, Output, EventEmitter  } from '@angular/core';
+import { obb, obj } from 'src/app/app.component';
 import { Task } from '../../models/task.model';
+
 
 @Component({
   selector: 'app-task',
@@ -17,7 +19,9 @@ export class TaskComponent implements OnInit {
   // tslint:disable-next-line: no-output-on-prefix
   @Output() onArchiveTask: EventEmitter<any> = new EventEmitter();
 
-  constructor() {}
+  constructor() {
+    console.log(obj.a === obb.a)
+  }
 
   ngOnInit() {}
 
